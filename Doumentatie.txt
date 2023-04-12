@@ -1,0 +1,29 @@
+Clasa Game:
+•	are o listă de utilizatori, badge-uri, token-uri și quest-uri
+•	metoda addUser adaugă un utilizator în lista de utilizatori
+•	metoda addBadge adaugă un badge în lista de badge-uri
+•	metoda addTokens adaugă un token în lista de token-uri
+•	metoda addQuest adaugă o misiune în lista de quest-uri
+•	metoda getUsers returnează lista de utilizatori
+•	metoda getQuests returnează lista de quest-uri
+•	metoda completeQuest adaugă token-urile și badge-ul misiunii completate în lista de token-uri și badge-uri ale utilizatorului specificat
+Clasa User:
+•	are un nume, numărul de token-uri și o listă de badge-uri
+•	metoda addTokens adaugă numărul specificat de token-uri la numărul total de token-uri
+•	metoda addBadge adaugă un badge în lista de badge-uri ale utilizatorului
+•	metoda getTokens returnează numărul de token-uri al utilizatorului
+•	metoda getBadges returnează lista de badge-uri ale utilizatorului
+Clasa Badge:
+•	are un nume
+•	metoda getName returnează numele badge-ului
+•	metoda toString returnează numele badge-ului
+Clasa Token:
+•	are o valoare
+•	metoda getValue returnează valoarea token-ului
+Clasa Quest:
+•	are un nume, numărul de token-uri și un badge
+•	metoda getTokens returnează numărul de token-uri ale misiunii
+•	metoda getBadge returnează badge-ul misiunii
+•	metoda getName returnează numele misiunii
+Clasa Main;
+conține metoda Main care crează o instanță a clasei Game, utilizatori, badge-uri, token-uri și quest-uri, și le adaugă în lista corespunzătoare din clasa Game apoi adaugă token-uri și badge-uri utilizatorilor și completează task-uri alese pentru fiecare utilizator la final, afișează informații despre utilizatori și misiuni.
